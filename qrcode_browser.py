@@ -5,7 +5,7 @@ import webbrowser
 
 new=2
 
-image = cv2.imread("github.png")
+image = cv2.imread("linkedin.png")
 
 decodedObjects = pyzbar.decode(image)
 for obj in decodedObjects:
